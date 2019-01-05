@@ -1,2 +1,3 @@
-2019-01-05 17:36:17 [main] INFO :: com.test.SLF4JSample : Hi, Welcome to Manohar exmaple
-2019-01-05 17:36:17 [main] ERROR:: com.test.SLF4JSample : Hi, Welcome to Manohar exmaple
+2019-01-05 17:59:29 [main] INFO :: com.test.SLF4JSample - Hi, Welcome to Manohar exmaple
+2019-01-05 17:59:29 [main] DEBUG:: com.test.SLF4JSample - Hi, Welcome to Manohar exmaple
+2019-01-05 17:59:29 [main] ERROR:: com.test.SLF4JSample - Hi, Welcome to Manohar exmaple

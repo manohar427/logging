@@ -19,7 +19,7 @@
     </appender>
 
 
-    <logger name="com.test" level="INFO" additivity="false">
+    <logger name="com.test" level="DEBUG" additivity="false">
         <appender-ref ref="STDOUT" />
         <appender-ref ref="FILE" />
     </logger>

@@ -8,7 +8,7 @@
         <file>slf4j-logback.log</file>
         <append>false</append>
         <encoder>
-            <pattern>%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5p:: %logger{25} : %m%n</pattern>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5p:: %logger{25} - %m%n</pattern>
         </encoder>
     </appender>
 
@@ -19,7 +19,7 @@
     </appender>
 
 
-    <logger name="com.test" level="INFO" additivity="false">
+    <logger name="com.test" level="DEBUG" additivity="false">
         <appender-ref ref="STDOUT" />
         <appender-ref ref="FILE" />
     </logger>
